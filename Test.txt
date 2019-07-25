@@ -1,0 +1,107 @@
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 ~
+$ cd C:/python_for_testing
+bash: cd: C:/python_for_testing: No such file or directory
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 ~
+$ cd C:/python_for_testing
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git remote add origin https://github.com/Action001/python_for_testing
+fatal: remote origin already exists.
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git remote add qwe https://github.com/Action001/python_for_testing
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git push -u qwe master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Action001/python_for_testing'
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git add C:/python_for_testing/Test.txt
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git commit -am "Initial commit"
+[master (root-commit) 5749165] Initial commit
+ Committer: Mikhail Pupynin <Mikhail_Pupynin@epam.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Test.txt
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git remote add qwe https://github.com/Action001/python_for_testing
+fatal: remote qwe already exists.
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git remote add qwerty https://github.com/Action001/python_for_testing
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git push -u qwerty master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Action001/python_for_testing
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'qwerty'.
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (master)
+$ git checkout -b lesson1
+Switched to a new branch 'lesson1'
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (lesson1)
+$ git add C:/python_for_testing/epam
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (lesson1)
+$ git commit -am "New Commit"
+[lesson1 acc3a30] New Commit
+ Committer: Mikhail Pupynin <Mikhail_Pupynin@epam.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 246 insertions(+)
+ create mode 100644 epam/mikhail_pupynin/python/lesson1/task1/array_processing.py
+ create mode 100644 epam/mikhail_pupynin/python/lesson1/task2/string_processing_(2.1 - 2.3).py
+ create mode 100644 epam/mikhail_pupynin/python/lesson1/task2/string_processing_(2.4 - 2.6).py
+ create mode 100644 epam/mikhail_pupynin/python/lesson1/task3/calc.py
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (lesson1)
+$ git remote add qqq https://github.com/Action001/python_for_testing
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (lesson1)
+$ git push -u qqq lesson1
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (13/13), 3.24 KiB | 1.62 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'lesson1' on GitHub by visiting:
+remote:      https://github.com/Action001/python_for_testing/pull/new/lesson1
+remote:
+To https://github.com/Action001/python_for_testing
+ * [new branch]      lesson1 -> lesson1
+Branch 'lesson1' set up to track remote branch 'lesson1' from 'qqq'.
+
+Mikhail_Pupynin@EPRUSAMW0260 MINGW64 /c/python_for_testing (lesson1)
